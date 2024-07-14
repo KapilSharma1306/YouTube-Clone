@@ -62,7 +62,30 @@
 }
 
 @media (max-width:900px) {
-    .sidebar{
-        display: none;
+    @media (max-width:900px) {
+        .sidebar{
+            width: 100%;
+            position: fixed;
+            top: 95vh;
+            padding-top: 0;
+            height: 50px;
+            padding-left: 4vw;
+            padding-bottom: 5px;
+        }
+        .shortcut-links{
+            height: vh;
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+        }
+        .shortcut-links p{
+            display: none;
+        }
+        .subscribed-list{
+            display: none;
+        }
+        .side-link img{
+            width: 35px;
+        }
     }
 }
